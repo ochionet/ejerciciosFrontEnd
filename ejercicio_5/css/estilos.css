@@ -1,0 +1,237 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/*convert font*/
+@font-face {
+  font-family: 'MetaSerif-Book';
+  src: url('/css/MetaSerif-Book/MetaSerif-Book.eot?#iefix') format('embedded-opentype'),  url('/css/MetaSerif-Book/MetaSerif-Book.otf')  format('opentype'),
+	     url('/css/MetaSerif-Book/MetaSerif-Book.woff') format('woff'), url('/css/MetaSerif-Book/MetaSerif-Book.ttf')  format('truetype'), url('/css/MetaSerif-Book/MetaSerif-Book.svg#MetaSerif-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*icons font*/
+@charset "UTF-8";
+@font-face {
+  font-family: "gazpacho";
+  src:url("gazpacho/gazpacho.eot");
+  src:url("gazpacho/gazpacho.eot?#iefix") format("embedded-opentype"),
+    url("gazpacho/gazpacho.woff") format("woff"),
+    url("gazpacho/gazpacho.ttf") format("truetype"),
+    url("gazpacho/gazpacho.svg#gazpacho") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "gazpacho" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "gazpacho" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bati:before {
+  content: "\61";
+}
+.icon-cuenco:before {
+  content: "\62";
+}
+.icon-tomate:before {
+  content: "\63";
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* reseteo todo */
+a,article,aside,body,footer,
+h1,h2,h3,h4,h5,header,html,img,li,main,nav,p,ul {
+border:0;
+margin:0;
+padding:0;
+}
+
+article,aside,footer,header,nav {
+display: block;
+}
+
+.icon{
+float:left;
+color:red;
+font-size: 40px;
+margin-right:10px;
+margin-top: 10px;
+}
+
+/* body */
+body {
+color:#000;
+font-family: 'Raleway', sans-serif;
+margin:0 auto;
+width:960px;
+}
+
+body > nav {
+float:left;
+height:auto;
+width:180px;
+}
+
+body > main {
+float:left;
+height:auto;
+width:620px;
+}
+
+body > aside {
+float:left;
+height:auto;
+padding-top:1em;
+text-align:right;
+width:160px;
+}
+
+
+/* cabecera */
+body header {
+background-color:red;
+}
+
+body header a h4 {
+font-family: 'MetaSerif-Book' !important;
+font-weight: normal;
+float:left;
+color:#fff;
+font-size:60px;
+padding-top: 30px;
+padding-left:20px;
+}
+
+body header nav {
+clear:both;
+background-color:#ccc ;
+width:100%;
+}
+
+body header nav h4 {
+background-color:black;
+color:white;
+font-family: 'Indie Flower', cursive;
+font-size:30px;
+padding:20px;
+}
+
+body header nav ul {
+padding:10px 0px 10px 20px;
+
+}
+
+body header nav ul li{
+display:inline;
+}
+
+body header nav a{
+color:black;
+font-size:16px;
+margin-right: 20px;
+text-decoration:none;
+}
+
+body header nav a:hover{
+color:red;
+}
+
+
+
+/* lateral izquierdo */
+body nav {
+clear:both;
+}
+
+body nav h3 {
+font-size:16px;
+color:red;
+text-align:left;
+padding-left:20px;
+padding-top:30px;
+}
+
+body nav ul {
+padding:5px 0px 5px 20px;
+
+}
+body nav ul li {
+padding-top:10px;
+color:black;
+font-size:14px;
+text-decoration:none;
+}
+
+
+/* main */
+main article h1 {
+color:black;
+font-size:40px;
+padding-bottom:px;
+padding-top:20px;
+}
+
+main article h2 {
+color:red;
+font-size:24px;
+font-weight: normal;
+margin-top:20px;
+margin-bottom: 10px;
+}
+
+main article p {
+color:black;
+font-size:14px;
+line-height:22px;
+margin-bottom:10px;
+margin-right: 20px;
+}
+
+main article img {
+width: 95%;
+margin-top: 20px;
+margin-bottom:20px;
+}
+
+
+/* pie */
+body footer {
+clear:both;
+padding-top: 10px;
+margin-bottom: 30px;
+}
+body footer p {
+background-color:red;
+color:white;
+font-size:14px;
+padding: 5px 0px;
+margin-top:5px;
+text-align:center;
+}

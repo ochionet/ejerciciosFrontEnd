@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carousel Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/personalizacion.css">
+    
+
+</head>
+<body>
+
+<div class="container">
+    <div id="slides">
+        <img src="img/a.jpg" alt="foto">
+        <img src="img/b.jpg" alt="foto">
+        <img src="img/c.jpg" alt="foto">
+        <img src="img/d.jpg" alt="foto">
+	    <img src="img/e.jpg" alt="foto">
+
+        <!-- 
+	    <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+	    <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+	     -->
+	     
+	    <a href="#" class="slidesjs-previous slidesjs-navigation">Anterior</a>
+	    <a href="#" class="slidesjs-next slidesjs-navigation">Siguiente</a>
+	
+	     
+	</div>
+</div>
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 600,
+        height: 300,
+        navigation: false
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<style>
+body{
+margin:0;
+}
+p{
+  font-family: times;
+  line-height: 20px;
+}
+header{
+position:relative;
+height: 100px;
+width: 100%;
+border-bottom:1px solid;
+background-color:#444;
+}
+  
+#logo{
+     padding: 10px 30px;
+}
+  #logo span{
+    font-size: 44px;
+	font-family: 'Lucida Grande';
+	color: white;
+  }
+
+  
+.menu{
+  background-color: #222222;
+  height: 40px;
+}
+
+      .menu ul {
+          margin-top: 0px;
+          padding-left: 30px;
+          padding-top: 10px;
+       }
+
+      .menu li {
+          display: inline; 
+        }
+
+      .menu li a {
+	      font-family: times;
+          font-size: 16px;
+          padding: 6px 14px;
+		  color: #999;
+          text-align: center;
+          text-decoration: none;
+      }
+
+      .menu li a:hover {
+          background-color: #111;
+      }
+	  
+	  .menu .activo{
+          background-color:#646464;
+		  border-radius: 5px;
+		  color:white;
+		  text-shadow: 1px 1px #000;
+      }
+	  
+	  
+#buscador{
+position: relative;
+float: right;
+top: -40px;
+width: 250px;  
+}
+  
+#A1{
+  height: 30px;
+  font-size: 14px;
+  color:#888;
+  width: 170px;
+} 
+	  
+.search_btn{
+	background-color: #4e4e4e;
+	color:#fff;
+	border-radius: 5px;
+	border: none;
+	padding: 8px 10px;
+	font-size: 12px;
+}
+	  
+.container,header,footer,.menu{
+width:1050px;
+margin:0 auto;
+}
+
+section{
+float:left;
+width:66%;
+padding:18px;
+}
+
+
+article{
+padding:10px;
+}
+      
+      section article{
+	      width: 47%;
+	      float:left;
+      }
+      
+      article.main{
+	      background-color:#f4f4f4;
+	      padding:20px;
+	      border-radius: 5px;
+	      border:2px solid #bcbcbc;
+	      width:auto;
+      }
+	      article.main .title{
+		      font-family: 'Lucida Grande';
+		      font-size:30px;
+		      margin-bottom:20px;
+		      font-weight: bold;
+	      }
+	 
+	 article h2{
+       font-family: 'Lucida Grande';
+      }
+   
+	      
+aside {
+    float: left;
+    width: 30%;
+    position: relative;
+}
+      
+      aside h1{
+	      margin:0px 0px 0px 10px;
+	      font-family: 'Lucida Grande';
+	  }
+      
+	  	.contentAside{
+		  	float: left;
+		  	margin: 20px 10px 0px 10px;
+		}
+		
+	      .contentAside h3{
+		      font-family: 'Lucida Grande';
+		      margin:0px;
+		  }
+		  
+		  .contentAside .caja{
+	      	width: 128px;
+	      	height: 128px;
+	      	background-color: #ccc;
+	      	float: left;
+	      	display: -webkit-flex;
+			display:flex;
+			-webkit-align-items: center;
+			align-items: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			border-color: #fff;
+			margin: 10px 5px 5px 0px;
+			border-style: double;
+			}
+	      	
+	      	.contentAside .caja .texto{
+		    	font-family: courier;
+		    	font-size: 12px;
+		    	color:white;  	
+	      	}
+	    
+	      .contentAside ul{
+          	padding: 0px 15px;
+          }
+      	  
+      	  .contentAside li{
+          	font-family: times;
+		  	font-size: 16px;
+		  	padding-bottom: 3px;
+		  }
+      	  
+      	  
+footer{
+background-color:#eee;
+padding:20px;
+float: left;
+}
+      	footer a{
+	      	text-decoration: none;
+	      	color:blue;
+      	}    
+  
+</style>
